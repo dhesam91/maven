@@ -56,7 +56,7 @@ public class NewRegistrationCompleteScriptWithAssert {
 				//Mailing Information
 				driver.findElement(By.name("address1")).sendKeys("69 Damy 1Dr");
 				driver.findElement(By.name("address2")).sendKeys("APT#69");
-				driver.findElement(By.name("city")).sendKeys("Colombo1");
+				driver.findElement(By.name("city")).sendKeys("Colombo11");
 				driver.findElement(By.name("state")).sendKeys("Colombo1");
 				driver.findElement(By.name("postalCode")).sendKeys("04210");
 				 driver.findElement(By.name("country"));
