@@ -13,14 +13,13 @@ public class Utility
  
         public static void captureScreenshot(WebDriver driver, String screenshotName) throws IOException
         {
- 
+
                try
                 {
                        TakesScreenshot ts = (TakesScreenshot)driver;
                        File source = ts.getScreenshotAs(OutputType.FILE);            
                        FileUtils.copyFile(source, new File("./Screenshots/"+screenshotName + ".png"));
                }
-              
                catch (IOException e)
                 {
                       
