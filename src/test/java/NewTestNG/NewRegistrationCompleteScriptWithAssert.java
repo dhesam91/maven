@@ -26,8 +26,8 @@ public class NewRegistrationCompleteScriptWithAssert {
 	@BeforeTest
 	public void openApplication() throws IOException
 	{
-		//System.setProperty("webdriver.chrome.driver", "C:\\chrome driver\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chrome driver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 	  String url = "http://newtours.demoaut.com/";
 	 
