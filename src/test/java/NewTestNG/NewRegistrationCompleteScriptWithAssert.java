@@ -191,8 +191,7 @@ public class NewRegistrationCompleteScriptWithAssert {
 								  
 								  
 								 }
-							 driver.close();
-							    driver.quit();			 	
+									 	
 						 	
 						 	}
 
