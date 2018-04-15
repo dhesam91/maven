@@ -13,7 +13,6 @@ public class Utility
  
         public static void captureScreenshot(WebDriver driver, String screenshotName) throws IOException
         {
-
                try
                 {
                        TakesScreenshot ts = (TakesScreenshot)driver;
