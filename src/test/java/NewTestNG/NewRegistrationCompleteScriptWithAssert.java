@@ -51,13 +51,13 @@ public class NewRegistrationCompleteScriptWithAssert {
 				driver.findElement(By.name("firstName")).sendKeys("Moe");
 				driver.findElement(By.name("lastName")).sendKeys("Munaz");
 				driver.findElement(By.name("phone")).sendKeys("123456789");
-				driver.findElement(By.id("userName")).sendKeys("moemunaz@email.com");
+				driver.findElement(By.id("userName")).sendKeys("email@email.com");
 				Thread.sleep(2000);
 				//Mailing Information
 				driver.findElement(By.name("address1")).sendKeys("69 Damy Dr");
 				driver.findElement(By.name("address2")).sendKeys("APT#69");
 				driver.findElement(By.name("city")).sendKeys("Colombo");
-				driver.findElement(By.name("state1")).sendKeys("Colombo");
+				driver.findElement(By.name("state")).sendKeys("Colombo");
 				driver.findElement(By.name("postalCode")).sendKeys("04210");
 				 driver.findElement(By.name("country"));
 				 Select Country = new Select(driver.findElement(By.name("country")));
