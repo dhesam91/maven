@@ -71,6 +71,7 @@ public class NewRegistrationCompleteScriptWithAssert {
 				driver.findElement(By.name("register")).click();
 				
 			    Utility.captureScreenshot(driver, "register page");
+			    System.out.println("test");
 		 
 				String expectedresult = "Your user name is Moe1991.";
 			 	  String  sActualValue=driver.findElement(By.tagName("Body")).getText();
